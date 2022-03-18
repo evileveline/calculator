@@ -37,7 +37,7 @@ class NumberService {
 
         Number number = parseAndValidate(symbol);
         if (number.getType() != type) {
-            throw new Exception("Ошибка: Числа разных типов, используйте один тип вводных значений.");
+            throw new Exception("Ошибка: числа разных типов, используйте один тип вводных значений.");
         }
 
         return number;
